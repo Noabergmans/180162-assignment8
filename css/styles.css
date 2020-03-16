@@ -4,7 +4,17 @@ body {
 	background-color: cornflowerblue;
 	font-family:'Baloo 2', cursive;}
 .jumbotron {
-	background-image: url("../images/banner.jpg")
+	background-image: url("../images/banner.jpg");
+	background-repeat: no-repeat;
+	display: inline-block;
+    width: 100%;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    background-size: 100%;
+    background-position: 50% 50%;
+	
+		
 }
 .my-navbar {
 	background-color: lightskyblue;
